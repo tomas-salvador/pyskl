@@ -1,4 +1,9 @@
-# PYSKL
+# 🚀 PYSKL WORKING WITH CUDA TOOLKIT 12.9 AND PYTHON 3.10
+
+> ✅ This fork has been adapted and tested with **CUDA Toolkit 12.9** and **Python 3.10**.  
+> 🛠️ The only modifications made are:
+> - Cleaned and updated the environment file: `pyskl_310.yaml`
+> - Removed `mmcv` from `requirements.txt` since it is already included in the conda YAML.
 
 > Note: This repo is currently not maintained by the developer. Feel free to create forks and develop based on this piece of codes.
 
@@ -46,19 +51,9 @@ This repo is the official implementation of [PoseConv3D](https://arxiv.org/abs/2
 - [x] [FineGYM (CVPR 2020)](https://arxiv.org/abs/2004.06704)
 - [x] [Diving48 (ECCV 2018)](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yingwei_Li_RESOUND_Towards_Action_ECCV_2018_paper.pdf)
 
-## Installation
-```shell
-git clone https://github.com/kennymckormick/pyskl.git
-cd pyskl
-# This command runs well with conda 22.9.0, if you are running an early conda version and got some errors, try to update your conda first
-conda env create -f pyskl.yaml
-conda activate pyskl
-pip install -e .
-```
-
 ## Installation Python 3.10
 ```shell
-git clone https://github.com/kennymckormick/pyskl.git
+git clone https://github.com/tomas-salvador/pyskl
 cd pyskl
 conda env create -f pyskl_310.yaml
 conda activate pyskl
